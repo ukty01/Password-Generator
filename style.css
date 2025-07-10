@@ -1,0 +1,109 @@
+/* 전체 바탕 스타일 */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* 컨테이너 스타일 */
+.container {
+  background: #ffffff;
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* 헤딩 스타일 */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #444;
+  font-weight: 500;
+}
+
+/* 옵션 영역 */
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1rem;
+  color: #444;
+}
+
+input[type="number"], input[type="checkbox"] {
+  margin: 5px 0;
+}
+
+/* 암호 길이 입력과 체크박스 스타일 */
+input[type="number"] {
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.2);
+  margin-right: 10px;
+}
+
+/* 버튼 스타일 */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* 결과 영역 */
+.result {
+  margin-top: 20px;
+}
+
+#generated-password {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+#password-strength {
+  font-size: 1rem;
+  color: #888;
+  margin-top: 10px;
+}
+
+/* 복사 버튼 스타일 */
+#copy-password {
+  background-color: #2196F3;
+  margin-top: 10px;
+}
+
+#copy-password:hover {
+  background-color: #1976D2;
+}
